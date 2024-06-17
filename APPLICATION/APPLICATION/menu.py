@@ -9,7 +9,6 @@ import threading
 from playsound import playsound
 import time
 import datetime
-from tkcalendar import Calendar
 
 # ***** GLOBAL VARIABLES *****
 
@@ -491,12 +490,6 @@ def open_calendar_window():
     calendar_window_label = ctk.CTkLabel(calendar_window, text="Calendar",
                          font=('Helvetica', 25))
     calendar_window_label.pack(pady=10)
-
-# Import calendar module and associate it with the calendar window.
-    calendar=Calendar(calendar_window,
-                      width=300,
-                      height=300)
-    calendar.place(x=0, y=100)
 
 # Main menu calendar button, can be used to open the settings sub-window above.
 menu_calendar_button = ctk.CTkButton(menu, text='Calendar',
