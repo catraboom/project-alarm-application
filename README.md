@@ -12,8 +12,8 @@ Here is a simple preview of it.
 ## 4: Copy URL into search and click "Clone from URL".
 ![Screenshot 2024-06-20 215243](https://github.com/catraboom/project-alarm-application/assets/124100757/fbc8b1d9-cddd-4adf-844f-af42cf24222a)
 ## 5: In the terminal, enter the command: 
-### py -m pip install -r requirements.txt
-![Screenshot 2024-06-20 221536](https://github.com/catraboom/project-alarm-application/assets/124100757/c745f353-dbe9-4f10-b96e-4c6461d62a8d)
+### pip install -r REQUIREMENTS\requirements.txt
+![Screenshot 2024-06-21 014315](https://github.com/catraboom/project-alarm-application/assets/124100757/6d54bb01-bc1c-4203-a60c-c49aed77cd20)
 ## 6: In the repository, locate "menu.py" and press run in the top right.
 ![Screenshot 2024-06-20 221746](https://github.com/catraboom/project-alarm-application/assets/124100757/72344e56-5349-4983-ae83-3e6ca236183f)
 # Instructions 
