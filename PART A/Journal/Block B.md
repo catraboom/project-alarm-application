@@ -308,18 +308,32 @@ Code explanation:
 
 1. Global variables for the stopwatch’s running and time variables are defined at the beginning of the project.
 2. Function which starts the counting sequence for the stopwatch.
+   
     a. If the stopwatch is running, execute the update time function.
+
 3. Function which pauses the counting sequence for the stopwatch.
+   
     a. If the stopwatch is running, set running to false by stopping the update time function from executing.
+   
 4. Function which resets the hours, minutes and seconds back to zero.
+   
     a. If the stopwatch is running, set running to false by stopping the update time function from executing.
+   
     b. Then, set hours, minutes and seconds all back to zero.
+   
 5. Function which updates the time for the stopwatch by one second.
+   
     a. If the number of seconds equals 60, instead increase the number of minutes to 1 and set the seconds back to zero.
+   
     b. If the number of minutes equals 60, instead increase the number of hours to 1 and set the minutes back to zero.
-    c. Create strings out of the hours, minutes and seconds data, accounting for when either of them are less than 9, where the string now has a zero leading.
+   
+    c. Create strings out of the hours, minutes and seconds data, accounting for when either of them are less than 9, where the string now has a 
+zero leading.
+   
     d. Create a complete string with the hours, minutes and seconds data.
+   
     e. Run this function every 1000 milliseconds or 1 second.
+   
 6. Function which gets the current hours, minutes and seconds data from the stopwatch and inserts it into the lapped time display, separated by a space.
 7. Function which when the window is closed, run the reset stopwatch function before destroying the window.
 8. Stopwatch display label is customised and inserted into the sub-window.
@@ -514,11 +528,17 @@ Code explanation:
 
 1. The current time subtitle is customised and inserted into the sub-window.
 2. Simple function which accesses the device’s time data and displays it in a label next to the current time subtitle.
+   
     a. The alarm clock’s time variable returns strings containing hour, minutes and seconds information from the device.
+   
     b. Display this time information into the `current_time_display `label by configuring the text to the current time.
-    c. Every 1000 milliseconds or 1 second, repeat the function and update the time displayed to the user. 
+   
+    c. Every 1000 milliseconds or 1 second, repeat the function and update the time displayed to the user.
+   
 3. The current time display is customised and inserted into the sub-window.
+
     a. `alarmclock() `is added after this label as the clock function is reliant upon this label to operate.
+
 4. Alarm’s hours, minutes and seconds entry fields are customised and inserted into the sub-window (same explanation from the timer).
 5. Alarm’s 2 semicolon labels are inserted into the sub-window, between the 3 specified entry fields (same explanation from the timer).
 6. Instructions subtitle is customised and inserted into the sub-window (same explanation from the timer).
@@ -618,17 +638,30 @@ Code explanation:
 2. Simple function identical to previous current time function but instead of importing system’s `%H:%M:%S %p `data, `%A `is used.
 3. Before checkbox customisation and insertion, a variable is created that determines whether the user has activated the checkbox or not.
 4. Start alarm function will take the data entered by the user and run the next function.
+   
     a. Gets the formatted string of the alarmhours, alarmminutes and alarmseconds data entered by the user.
+   
     b. Gets the option selected by the user from the dropdown menu.
+   
     c. Gets information regarding whether the checkbox has been activated or not (i.e. true or false).
+   
 5. Check alarm function is inserted within the start alarm function and activates after data mentioned above has been accessed by the program.
+   
     a. Gets the current date and time from the system.
+   
     b. Specifies current time from the information from `now` above.
+   
     c. Specifies current day from the information from `now` above.
-    d. If the current time and time provided by the user, as well as the current day and day provided by the user match up, then the alarm sound is played.
+
+    d. If the current time and time provided by the user, as well as the current day and day provided by the user match up, then the alarm sound is 
+played.
+   
     e. After this is met and the repeat checkbox is set to true, then adds 7 days to the alarm day.
+   
     f. After 1000 milliseconds or 1 second, the check alarm function is rerun.
+   
     g. Allows the code line above to run until user and system time and day match up.
+   
 6. Added to the parameters of the start button to allow the start timer function to run when pressed.
 
 Justification:
