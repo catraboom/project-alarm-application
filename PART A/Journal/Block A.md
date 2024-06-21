@@ -104,11 +104,16 @@ Code explanation:
 
 1. Menu title is customised and inserted into the menu.
 2. Functions that open sub-windows are created.
+
     a. Sub-window is created.
+   
     b. Sub-window’s geometry is set.
+   
     c. Sub-window’s title is created.
+   
     d. Sub-window’s title is customised and inserted into the sub-window.
-3. Added to the parameters of the buttons 1-6 to allow the sub-windows to be opened when the corresponding button is pressed.
+   
+4. Added to the parameters of the buttons 1-6 to allow the sub-windows to be opened when the corresponding button is pressed.
 
 Justification:
 
@@ -248,21 +253,34 @@ Code explanation:
 6. Subtitles for hexadecimal entry are customised and inserted into the sub-window.
 7. Entries are created, consisting of 6 identical entry fields separated by horizontal padding.
 8. Functions that change background colour to custom are created.
+
     a. Concatenates the 6 entry fields to create a singular input.
+   
     b. If all 6 entry fields aren’t filled in, return false.
+   
     c. Configure menu colour to specified hexadecimal colour.
+   
     d. Configure buttons 1-6 background colour to specified hexadecimal colour.
+   
     e. Configure menu title’s background colour to specified hexadecimal colour.
+   
     f. Ignore any errors to prevent crashing.
-9. Function that validates the hexadecimal code entered.
+   
+10. Function that validates the hexadecimal code entered.
+
     a. Make sure only hexadecimal characters are entered to return true, otherwise return false.
-10. Confirm button is customised and inserted into the sub-window.
-11. Function that changes background colour to presets are created.
+    
+12. Confirm button is customised and inserted into the sub-window.
+13. Function that changes background colour to presets are created.
+
     a. Configure menu colour to preset.
+    
     b. Configure buttons 1-6 background colour to preset.
+    
     c. Configure menu title’s background colour to preset.
-12. Added to the parameters of the buttons 1-6 to insert icons, increase their dimensions and fonts.
-13. More and settings buttons are rearranged to the side of the screen with horizontal and vertical padding.
+    
+15. Added to the parameters of the buttons 1-6 to insert icons, increase their dimensions and fonts.
+16. More and settings buttons are rearranged to the side of the screen with horizontal and vertical padding.
 
 Justification:
 
@@ -405,27 +423,43 @@ Code explanation:
 1. Playsound and threading and time modules within Python are imported.
 2. Simple function which uses playsound to locate jingle’s sound file is created.
 3. Function that enables the timer to countdown is created.
+   
     a. Declares that running and time are global variables.
+   
     b. If time is greater than zero, execute consequent code.
+   
     c. Convert hours, minutes into seconds.
+   
     d. Converts, hours, minutes and seconds data into formatted strings (f).
+   
     e. Decreases time by 1 second.
+   
     f. Calls the function every 1000 milliseconds or 1 second to reduce lag whilst counting down.
+   
     g. When the hours, minutes and seconds all reach zero, it stops decreasing time and starts playing jingle in the background to reduce lag.
-4. Function which starts the update_timer function is created.
+   
+5. Function which starts the update_timer function is created.
+   
     a. When running, calculates the total number of seconds from the users inputted hours, minutes and seconds.
+   
     b. Runs the update_timer function.
-5. Function which pauses the countdown is created.
+   
+7. Function which pauses the countdown is created.
+   
     a. When running, pauses the update_timer function.
-6. Function which resets the timer.
+   
+9. Function which resets the timer.
+    
     a. When running, pauses the update_timer function.
+   
     b. Sets the times to zero.
-7. Timer’s hours, minutes and seconds entry fields are customised and inserted into the sub-window.
-8. Timer’s 2 semicolon labels are inserted into the sub-window, between the 3 specified entry fields.
-9. Instructions subtitle is customised and inserted into the sub-window.
-10. Start button is customised and inserted into the sub-window.
-11. Pause button is customised and inserted into the sub-window.
-12. Reset button is customised and inserted into the sub-window.
+   
+11. Timer’s hours, minutes and seconds entry fields are customised and inserted into the sub-window.
+12. Timer’s 2 semicolon labels are inserted into the sub-window, between the 3 specified entry fields.
+13. Instructions subtitle is customised and inserted into the sub-window.
+14. Start button is customised and inserted into the sub-window.
+15. Pause button is customised and inserted into the sub-window.
+16. Reset button is customised and inserted into the sub-window.
 
 Justification:
 
