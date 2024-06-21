@@ -85,12 +85,19 @@ Code explanation:
 
 
 1. Date info function both allows the user to easily observe their selected date and create an event on a specific date.
+   
     a. Gets information regarding the date selected by the user and then configures the `specified_date_label `to enable it to display this data instead.
+   
     b. If the date specified by the user has also been selected as an event, then grab both title and description data and store it in `events`.
+   
     c. If the date specified by the user isn’t also selected as an event, then default the title and description entry fields.
+   
 2. Add event function saves the event into the date specified by the user until the sub-window is terminated.
+   
     a. Gets information about the date, title and description (while removing trailing spaces) specified by the user.
+   
     b. If either a title or description has been entered by the user, bind the specified date to these two data points by saving them into `events`. Also, default the fields to this information upon reopening that date.
+   
 3. This is a dictionary where all the events during the session can be saved and accessed at any point.
 4. The specified date label is customised and inserted into the sub-window.
 5. The event and description labels are customised and inserted into the sub-window.
@@ -196,15 +203,23 @@ Code explanation:
 
 1. Global variables for the stopwatch’s lapped time variables are defined at the beginning of the project.
 2. Lap stopwatch function has been edited to add lap and the lap’s position relative to other laps before the time data.
+   
     a. Create a formatted string with the “Lap”, lap number and the time data while preventing the user from editing this lap data using the text box.
+   
 3. Reset stopwatch function has been edited to also reset the lap time.
+   
     a. Set lap times back to zero.
+   
     b. Delete the information currently shown on the text box while preventing the user from editing this lap data using the text box.
+   
 4. Edited the lapped display from an entry field to a text box to allow for lapped times to be inserted below each other to ensure readability.
 5. The horizontal and vertical coordinate variables of the entry fields are specified.
 6. For each of the 6 entries, they can more easily be spaced and placed within the sub-window.
+   
     a. For each entry, a pair of values is generated to place the entries within the sub-window both horizontally and vertically.
+   
     b. Place the 6 entry fields using the specified horizontal and vertical coordinates specified beforehand.
+   
     c. Vary each of the entry fields x positions by 40.
 
 Additional changes:
@@ -391,12 +406,17 @@ Code explanation:
 2. This function saves the background colour to the initialisation file by writing/overwriting the variable within it.
 3. This function loads the background colour that is saved to the initialisation file, ignoring heading and trailing spaces.
 4. This function applies the colour changes specified by the user to the main menu’s background and associated widgets.
-5. Reorganised the preset/custom colour change functions and validate hexadecimal code function by removing their indentation and inserting them above the sub-window. 
+5. Reorganised the preset/custom colour change functions and validate hexadecimal code function by removing their indentation and inserting them above the sub-window.
+
     a. The custom colour try statement has been simplified to activate the apply changes function and replace the parameters with hexadecimal code.
+   
     b. The light red, light blue and light green colour presets have been simplified so they simply activate the apply changes function and replace the parameters with preset.
+   
 6. The confirm background button has been edited to more efficiently execute the change colour function.
+   
     a. This improves performance by using an anonymous function to execute the change colour function’s relatively simple expressions.
-7. This statement allows the saved background colour to be loaded and then applied to the sub-window and associated widgets.
+
+8. This statement allows the saved background colour to be loaded and then applied to the sub-window and associated widgets.
 
 Justification:
 
@@ -480,7 +500,8 @@ Code explanation:
 3. This simple function loads the sound file and allows it to be played when called by other functions.
 4. This simple function allows the sound file to be stopped.
 5. This simple function allows the user to completely terminate the sound file’s operation after the sub-window is closed.
-6. The add event function has been edited to prevent the title and description from temporarily disappearing upon pressing the add event button. 
+6. The add event function has been edited to prevent the title and description from temporarily disappearing upon pressing the add event button.
+
     a. The if statement was edited so that upon pressing the add event button, the title and description would be updated to match the user specified title and description.
 
 Justification:
