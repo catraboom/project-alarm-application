@@ -74,6 +74,8 @@ Window:
 
 ![Screenshot 2024-05-29 173703](https://github.com/catraboom/project-alarm-application/assets/124100757/b8a54993-23fb-4a87-91ea-1c9757be6313)
 
+_All 6 sub-windows are clearly depicted in this image, opened when the user clicks on the corresponding button. Furthermore, the text titles for each window (including menu) are implemented._
+
 New code:
 
 
@@ -295,6 +297,8 @@ Sources:
 Window:
 
 ![Screenshot 2024-06-01 221358](https://github.com/catraboom/project-alarm-application/assets/124100757/3ed972d4-3091-4b35-b856-1175f621d4f1)
+
+_Timer window is clearly depicted. [Demonstration.](https://youtu.be/7jkZ-O8Waeg)_
 
 New code:
 
