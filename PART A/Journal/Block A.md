@@ -113,7 +113,7 @@ Code explanation:
    
     d. Sub-window’s title is customised and inserted into the sub-window.
    
-4. Added to the parameters of the buttons 1-6 to allow the sub-windows to be opened when the corresponding button is pressed.
+3. Added to the parameters of the buttons 1-6 to allow the sub-windows to be opened when the corresponding button is pressed.
 
 Justification:
 
@@ -266,12 +266,12 @@ Code explanation:
    
     f. Ignore any errors to prevent crashing.
    
-10. Function that validates the hexadecimal code entered.
+9. Function that validates the hexadecimal code entered.
 
     a. Make sure only hexadecimal characters are entered to return true, otherwise return false.
     
-12. Confirm button is customised and inserted into the sub-window.
-13. Function that changes background colour to presets are created.
+10. Confirm button is customised and inserted into the sub-window.
+11. Function that changes background colour to presets are created.
 
     a. Configure menu colour to preset.
     
@@ -279,8 +279,8 @@ Code explanation:
     
     c. Configure menu title’s background colour to preset.
     
-15. Added to the parameters of the buttons 1-6 to insert icons, increase their dimensions and fonts.
-16. More and settings buttons are rearranged to the side of the screen with horizontal and vertical padding.
+12. Added to the parameters of the buttons 1-6 to insert icons, increase their dimensions and fonts.
+13. More and settings buttons are rearranged to the side of the screen with horizontal and vertical padding.
 
 Justification:
 
@@ -438,28 +438,28 @@ Code explanation:
    
     g. When the hours, minutes and seconds all reach zero, it stops decreasing time and starts playing jingle in the background to reduce lag.
    
-5. Function which starts the update_timer function is created.
+4. Function which starts the update_timer function is created.
    
     a. When running, calculates the total number of seconds from the users inputted hours, minutes and seconds.
    
     b. Runs the update_timer function.
    
-7. Function which pauses the countdown is created.
+5. Function which pauses the countdown is created.
    
     a. When running, pauses the update_timer function.
    
-9. Function which resets the timer.
+6. Function which resets the timer.
     
     a. When running, pauses the update_timer function.
    
     b. Sets the times to zero.
    
-11. Timer’s hours, minutes and seconds entry fields are customised and inserted into the sub-window.
-12. Timer’s 2 semicolon labels are inserted into the sub-window, between the 3 specified entry fields.
-13. Instructions subtitle is customised and inserted into the sub-window.
-14. Start button is customised and inserted into the sub-window.
-15. Pause button is customised and inserted into the sub-window.
-16. Reset button is customised and inserted into the sub-window.
+7. Timer’s hours, minutes and seconds entry fields are customised and inserted into the sub-window.
+8. Timer’s 2 semicolon labels are inserted into the sub-window, between the 3 specified entry fields.
+9. Instructions subtitle is customised and inserted into the sub-window.
+10. Start button is customised and inserted into the sub-window.
+11. Pause button is customised and inserted into the sub-window.
+12. Reset button is customised and inserted into the sub-window.
 
 Justification:
 
