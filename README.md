@@ -3,10 +3,10 @@ This is my Software Design and Development major project, which integrates numer
 Here is a simple preview of it.
 ![Screenshot 2024-06-20 212207](https://github.com/catraboom/project-alarm-application/assets/124100757/577390ac-cc15-42e4-9809-7df6ab3c8ed8)
 # Installation guide.
-## 1: Click clone the git repository.
-![Screenshot 2024-06-20 213315](https://github.com/catraboom/project-alarm-application/assets/124100757/fa76c98c-07b8-43cd-b75d-5d87ac4d7bae)
-## 2: Copy URL to clipboard.
+## 1: Click "Code" in top right.
 ![Screenshot 2024-06-20 212926](https://github.com/catraboom/project-alarm-application/assets/124100757/d37121ea-3be2-4693-b7f8-8f32ccac940c)
+## 2: Copy the Git repository's URL.
+![Screenshot 2024-06-20 213315](https://github.com/catraboom/project-alarm-application/assets/124100757/fa76c98c-07b8-43cd-b75d-5d87ac4d7bae)
 ## 3: Clone repository from Github.
 ![Screenshot 2024-06-20 213906](https://github.com/catraboom/project-alarm-application/assets/124100757/b40649a3-5d8e-4161-8d8f-e168aefb664b)
 ## 4: Copy URL into search and click "Clone from URL".
