@@ -165,3 +165,12 @@ Overall, this method has been beneficial in the development of my software solut
 
 * I have used visualisation tools, primarily the Gantt chart and modelling diagram to allow the stakeholder’s to visualise the development process and the final product. 
     * Visual aids are often more explicit and easier to understand than words, making them useful in communicating ideas, especially if the stakeholder isn’t particularly qualified or experienced in software development.
+
+
+### Code reviews:
+
+
+
+* I have asked for code reviews from colleagues and stakeholders to help identify any further issues by collating numerous perspectives.
+    * This process promotes collaborative development to help ensure code quality and early squashing of bugs.
+* Furthermore, this enables the sharing of knowledge between myself and the stakeholder to learn from each other’s coding practices and approaches.
